@@ -34,8 +34,22 @@ html{
 body{
     background: var(--bg-color);
     padding-left:30rem;
+    transition: background 0.2s linear;
 
+}
 
+body.dark{
+    background: #232c35;
+}
+
+body.active{
+    --black:#fff;
+    --light-color:#ddd;
+    --borde:.1rem solid rgba(0,0,0,.4)
+    --box-shadow:.4rem .4rem 1rem #111,
+    -.4rem -.4rem 1rem #333;
+    --box-shadow-inset:.4rem .4rem 1rem #111 inset,
+    -.4rem -.4rem 1rem #333 inset;
 }
 
 .header{
@@ -64,6 +78,7 @@ body{
 .header .user h3{
     color:var(--black);
     font-size:2.5rem;
+    padding-bottom:7px;
 
 }
 
@@ -92,6 +107,11 @@ body{
 .header .navbar a{
     box-shadow: var(--box-shadow-inset);
 
+}
+
+.header .navbar a:hover{
+    color:var(--green);
+    box-shadow: var(--box-shadow-inset);
 }
 
 
@@ -187,11 +207,27 @@ body{
 @media (max-width:450px){
     
     html{
-        font-size:50%;
+        font-size:68%;
 
     }
     .header{
         width:100%;
         borde-right:0;
+        padding-top:70px;
     }
+
+    #menu-btn{
+    height: 3,5rem;
+    width: 1,5rem;
+}
+
+.header .user img{
+
+    margin:2rem 0;
+    borde:1rem solid transparent;
+    border-radius:50%;
+    heigth:14rem;
+    width:14rem;
+    box-shadow: var(--box-shadow);
+
 }

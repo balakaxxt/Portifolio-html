@@ -5,11 +5,14 @@ let header = document.querySelector('.header')
 menu.onclick = () =>{
     menu.classList.toggle('fa-times');
     header.classList.toggle('active');
+    
 
 }
 
-let themeToggler = document.querySelector('#theme-toggler')
 
-themeToggler.onclick = () =>{
-    themeToggler.classList.toggle('fa-cog');
-}
+const chk = document.getElementById('chk')
+
+chk.addEventListener('change', () => {
+    document.body.classList.toggle('dark')
+
+} )

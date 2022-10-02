@@ -1,0 +1,62 @@
+
+
+
+
+.checkbox{
+    opacity:0;
+}
+
+
+.label{
+
+    background-color: #111;
+    border-radius:50px;
+    cursor:pointer;
+    position:fixed;
+    top:2.5rem; right: 5rem;
+
+    display:flex-box;
+    align-items:center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding:8.5px;
+    padding-heigth:3px;
+
+    height: 7rem;
+    width: 8.1rem;
+    font-size: 30px;
+    
+    transform: scale(1.0);
+    
+
+}
+
+.label .ball{
+    background-color: #fff;
+    border-radius:50%;
+    position: absolute;
+    top: 10px;
+    left:4px;
+
+
+    height:42px;
+    width:37px;
+    transform: translatex(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball{
+    transform: translatex(30px);
+}
+
+.fa-moon{
+
+    color:#27ae60;
+
+}
+
+.fa-sun{
+    color:#27ae60;
+    font-size: 25px;
+    padding-left:3px;
+}
