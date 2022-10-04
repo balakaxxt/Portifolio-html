@@ -1,0 +1,32 @@
+:root{
+    --green:#27ae60;
+    --black:#444;
+    --light-color:#777;
+    --borde:.1rem solid rgba(0,0,0,.2)
+    --box-shadow:.4rem .4rem 1rem #ccc,
+    -.4rem -.4rem 1rem #fff;
+    --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
+    -.4rem -.4rem 1rem #fff inset;
+}
+
+
+
+
+.my-name h3{
+
+    cursor:pointer;
+    background=color:var (--green);
+    
+
+}
+
+
+
+
+
+
+
+ .my-name:hover{
+    color:var(--green);
+    
+}

@@ -38,9 +38,39 @@ body{
 
 }
 
-body.dark{
-    background: #232c35;
+
+
+body.dark {
+    background:#2c292f;
 }
+
+body.dark a {
+    background: #fff;
+}
+
+body.dark p{
+   color:white;
+}
+
+body.dark span{
+    color:white;
+}
+
+body.dark h3{
+    color:white;
+}
+
+body.dark h1{
+    color:var(--green);
+}
+
+body.dark .user h3 {
+    color:var(--green);
+}
+
+body.dark .user h3:hover{
+    color:white;
+} 
 
 body.active{
     --black:#fff;
@@ -51,6 +81,85 @@ body.active{
     --box-shadow-inset:.4rem .4rem 1rem #111 inset,
     -.4rem -.4rem 1rem #333 inset;
 }
+.home{
+    display: flex;
+    flex-flow: colum;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home .content h3{
+font-size:5rem;
+line-height:1.1;
+text-transform:uppercase;
+
+
+}
+
+.home .content p{
+    font-size:1.5rem;
+    color:var(--green);
+    padding-bottom: .5rem;
+    
+    
+    }
+.home .content h1{
+        font-size:3.5rem;
+        color:var(--green);
+        padding-bottom: .5rem;
+        }
+
+.home .share{
+    position: relative;
+    top:20rem;
+    height:50rem;
+    border-radius:.5rem;
+}
+
+section{
+    min-height:100vh;
+    padding:2rem;
+}
+
+.batao{
+    margin-top:1rem;
+    display:inline-block;
+    border=radius: .5rem;
+    font-size: 1.7rem;
+    curso:pointer;
+    background: none;
+    color: var(--black);
+    box-shadow: var(==box-shadow);
+}
+
+.batao:hover{
+    box-shadow: var(--box-shadow-inset);
+    color:var(--green);
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:1rem 3.5rem;
+    borde-right: .5rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background: none;
+    color: var(--black);
+    box-shadow: var(--box-shadow);
+}
+
+.btn:hover{
+    box-shadow: var(--box-shadow-inset);
+    color: var(==green);
+}
+
+
+
+
+
+
 
 .header{
     position: fixed;
@@ -76,7 +185,7 @@ body.active{
 }
 
 .header .user h3{
-    color:var(--black);
+    color:var(shadow);
     font-size:2.5rem;
     padding-bottom:7px;
 
@@ -140,26 +249,7 @@ body.active{
 
 }
 
-#theme-toggler{
 
-    position:fixed;
-    top:1.5rem; right: 2rem;
-    z-index:1000;
-    height: 5rem;
-    width: 4rem;
-    line-height: 5rem;
-    border-radius: 50%;
-    font-size: 4rem;
-    cursor: pointer;
-    box-shadow: var(--box-shadow);
-    text-align:center;
-    color:var(--black);
-}
-
-#theme-toggler:hover{
-    color:var(--green);
-    box-shadow: var(--box-shadow-inset);
-}
 
 
 
