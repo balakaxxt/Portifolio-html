@@ -2,7 +2,7 @@
 
 
 :root{
-    --green:#27ae60;
+    --varn:#27ae60;
     --black:#444;
     --light-color:#777;
     --borde:.1rem solid rgba(0,0,0,.2)
@@ -32,9 +32,12 @@ html{
 }
 
 body{
-    background: var(--bg-color);
+    background: url("../img/img-7.jpg") no-repeat center center;
     padding-left:30rem;
     transition: background 0.2s linear;
+    background-size: cover;
+    height: 92vh;
+    margin-top:50px;
 
 }
 
@@ -87,28 +90,37 @@ body.active{
     align-items:center;
     justify-content: center;
     text-align: center;
-    padding-top:13rem;
+    padding-top:20rem;
 }
 
 .home .content h3{
-padding-top:20px;
-font-size:4rem;
+padding-top:17px;
+font-size:2rem;
+color:#DCDCDC;
 line-height:1.1;
 text-transform:uppercase;
-font:;
+line-items:left;
+font-family: system-ui,-apple-system, Helvetica ,Arial, sans-serif;
 
 }
 
 .home .content p{
     padding-top:1.2rem;
     font-size:1.8rem;
-    color:var(--green);
+    color:#FFD700;
     padding-bottom: .5rem;
     
     
     }
+.home .content a {
+        color:white;
+        padding-left:0rem;
+    
+    }
+
+
 .home .content h1{
-        font-size:6.5rem;
+        font-size:3.5rem;
         color:var(--green);
         padding-bottom: .10rem;
         }
@@ -120,27 +132,48 @@ font:;
     border-radius:.5rem;
 }
 
+.header .user .perfil{
+    
+    margin:0rem 0; 
+    margin-top:1rem;
+    borde:2rem black;
+    border-radius:100%;
+    heigth:1rem;
+    width:10rem;
+    }
+
+
 section{
-    min-height:100vh;
-    padding:2rem;
+   
+    width:100%;
+    height:100vh;
+    padding:0rem;
 }
 
 .batao{
-    margin-top:3rem;
-    padding-bottom:10px;
-    display:inline-block;
-    border=radius: .5rem;
-    font-size: 2.3rem;
-    curso:pointer;
-    background: none;
-    color: var(--black);
-    box-shadow: var(==box-shadow);
+    
+   
+    display:block;
+    margin-left:1.9rem;
+    margin:2.5rem ;
+    padding:.1rem;
+    border-radius:10rem;
+    font-size:2.3rem;
+    box-shadow: var(--box-shadow);
+    color: white;
 }
 
 .batao:hover{
     box-shadow: var(--box-shadow-inset);
     color:var(--green);
 }
+
+.batao a{
+    
+    color:red;
+}
+
+
 
 .home .share{
     position:relative;
@@ -159,6 +192,7 @@ section{
     font-size: 4rem;
     color:var(==black);
 }
+
 
 .home .share a:hover{
 
@@ -195,22 +229,27 @@ section{
 .header{
     position: fixed;
     top:0; left:0;
-    z-index:999;
-    background: var(--bg-color);
+    z-index:1;
+    background:#006400;
     width:30rem;
-    borde-right: var(--border);
     height:100%;
-    padding:2rem;
+    borde-right: #D3D3D3;
+    padding:1rem;
     text-align:center;
 }
 
 .header .user img{
+    max-width:150px;
 
-    margin:1rem 0;
-    borde:2rem solid transparent;
-    border-radius:50%;
-    heigth:17rem;
-    width:18rem;
+}
+
+.header .user .perfil{
+
+    margin:rem 0;
+    borde:10rem solid transparent;
+    border-radius:100%;
+    heigth:15rem;
+    width:20rem;
     box-shadow: var(--box-shadow);
 
 }
@@ -235,22 +274,22 @@ section{
 
 .header .navbar a{
     display:block;
-    margin:1.5rem 0;
-    padding:.7rem;
-    border-radius:5rem;
-    font-size:1.2rem;
+    margin:1.5rem ;
+    padding:.1rem;
+    border-radius:10rem;
+    font-size:2.3rem;
     box-shadow: var(--box-shadow);
-    color: var(--black);
+    color: var(--black-);
 
 
 }
 .header .navbar a{
-    box-shadow: var(--box-shadow-inset);
+    box-shadow: black;
 
 }
 
 .header .navbar a:hover{
-    color:var(--green);
+    color:white;
     box-shadow: var(--box-shadow-inset);
 }
 
@@ -309,6 +348,7 @@ section{
     }
 
 
+
     .header{
         left:-110%;
 
@@ -325,32 +365,80 @@ section{
 }
 
 
-@media (max-width:450px){
+@media (max-width:360px){
     
     html{
         font-size:68%;
 
     }
-    .header{
-        width:100%;
-        borde-right:0;
-        padding-top:70px;
+
+    .menu-web{
+        opacity: 0.7;
     }
 
+
+    .header{
+        position: absolute;
+        background:#F8F8FF;
+        z-index:1;
+        width:65%;
+        height:100%;
+        padding:2rem; 
+        padding-top:100px;
+        text-align:center;    
+       
+    }
+    
+    .header .navbar a{
+        display:block;
+        margin:2.5rem 0;
+        padding:.7rem;
+        border-radius:5rem;
+        font-size:1.3rem;
+        box-shadow: var(--box-shadow);
+        color: var(--black);
+    
+    
+    }
+    
+
+    .header .user .perfil{
+    
+    margin:0rem 0; 
+    margin-top:10rem;
+    borde:2rem black;
+    border-radius:100%;
+    heigth:8rem;
+    width:10rem;
+    }
+    .header .user h3{
+        color:var(shadow);
+        font-size:1.5rem;
+        padding-bottom:5px;
+    
+    }
+    .header .user p{
+        color:var(shadow);
+        font-size:1rem;
+        padding-bottom:2px;
+    
+    }
+
+
     #menu-btn{
-    height: 3,5rem;
+    height: 2,5rem;
     width: 1,5rem;
 }
 
 .home .content h1{
-    font-size:3.8rem;
+    font-size:2.8rem;
     color:var(--green);
     padding-bottom: 2.2rem;
     }
 
 .home .content h3{
     padding-top:10px;
-    font-size:3.8rem;
+    font-size:2.8rem;
     line-height:1.1;
     text-transform:uppercase;
             
@@ -362,7 +450,7 @@ section{
     align-items:center;
     justify-content: center;
     text-align: center;
-    padding-top:17rem;
+    padding-top:50rem;
 }
 .home .content p{
     padding-top:1.2rem;
@@ -375,28 +463,25 @@ section{
 
     .label{
 
-        background-color: #111;
-        border-radius:50px;
-        cursor:pointer;
-        position:fixed;
-        top:1.5rem; right: 1rem;
-    
-    
-        display:flex-box;
-        align-items:center;
-        justify-content: space-between;
-        cursor: pointer;
-        padding:7.5px;
-        padding-heigth:2px;
-    
-        height:5rem;
-        width: 7.1rem;
-        font-size: 28px;
+    background-color: #111;
+    border-radius:50px;
+    cursor:pointer;
+    position:fixed;
+    margin-left:10px;
+    top:3.5rem; right: 5.8rem;
+    display:flex-box;
+    align-items:center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding:7.5px;
+    padding-heigth:2px;        
+    height:5rem;
+    width: 7.1rem;
+    font-size: 7px;
+    transform: scale(1.0);
+                
         
-        transform: scale(1.0);
-        
-    
-    }
+        }
     .label .ball{
         background-color: #fff;
         border-radius:50%;
@@ -405,12 +490,12 @@ section{
         left:4px;
     
     
-        height:42px;
+        height:22px;
         width:32px;
         transform: translatex(0px);
         transition: transform 0.2s linear;
     }
-
+    
 }
 
 .header .user img{
@@ -418,8 +503,8 @@ section{
     margin:2rem 0;
     borde:1rem solid transparent;
     border-radius:40%;
-    heigth:14rem;
-    width:14rem;
+    heigth:10rem;
+    width:10rem;
     box-shadow: var(--box-shadow);
 
 }

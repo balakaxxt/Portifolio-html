@@ -7,7 +7,8 @@
 }
 
 .check-ingles{
-    
+    color:whiter;
+    border-radius:whiter;
 }
 
 .label{
@@ -50,19 +51,34 @@
 }
 
 .checkbox:checked + .label .ball{
-    transform: translatex(30px);
+    transform: translatex(40px);
 }
 
 .fa-moon{
 
     color:#27ae60;
     padding-bottom:10px;
-    padding-top:4px;
+    padding-top:5px;
+    padding-right:7px;
+    font-size: 25px;
+    padding-left:2px;
 
 }
 
 .fa-sun{
     color:#27ae60;
     font-size: 25px;
-    padding-left:4px;
+    padding-left:5px;
+}
+
+.batao{
+    width:40%;
+
+    display:block;
+    margin-left:150px;
+    padding:.50rem;
+    border-radius:5rem;
+    font-size:2.3rem;
+    box-shadow: var(--box-shadow);
+    color: var(--black);
 }
