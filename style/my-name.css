@@ -21,13 +21,14 @@
 }
 
 .menu-web{
-    padding-top:70px;
-    margin-right:20px;
+    padding-top:100px;
+    padding-right:500px;
+    margin-left:500px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: system-ui,-apple-system, Helvetica ,Arial, sans-serif;
-    font-size:18px;
+    font-size:20px;
     height: 13vh;
     opacity:1;
 
@@ -36,15 +37,16 @@
 .nav-list {
     list-style: none;
     display:flex;
-    padding-right:100px;
-    padding-bottom:59px;
+    padding-top:10px;
+    padding-right:180px;
+    padding-bottom:123px;
     padding-left:20px;
 }
 
 .nav-list li{ 
 
-    letter-spacing: 5px;
-    margin-left:20px;
+    letter-spacing: 4px;
+    margin-left:25px;
 
 }
 
@@ -53,7 +55,7 @@
     color:white;
     text-decoration: none;
     transition: 0.3s;
-    font-size:17px;
+    font-size:15px;
 }
 
 .menu-web a:hover {
