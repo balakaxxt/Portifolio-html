@@ -10,7 +10,12 @@
 }
 
 
-
+.barra{
+    width:100px;
+    height:100px;
+    background:red;
+    margin-bottom:100px;
+}
 
 .my-name h3{
 
@@ -20,7 +25,14 @@
 
 }
 
+.navbar{
+    background:#195BBE;
+    width: 1300px;
+    height: 100px;
+}
+
 .menu-web{
+   
     padding-top:100px;
     padding-right:500px;
     margin-left:500px;
@@ -38,7 +50,7 @@
     list-style: none;
     display:flex;
     padding-top:10px;
-    padding-right:180px;
+    padding-right:420px;
     padding-bottom:123px;
     padding-left:20px;
 }
