@@ -27,7 +27,7 @@
 
 .navbar{
     background:#195BBE;
-    width: 1300px;
+    width: 1024px;
     height: 100px;
 }
 
@@ -35,7 +35,7 @@
    
     padding-top:100px;
     padding-right:500px;
-    margin-left:500px;
+    margin-left:491px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,7 +50,7 @@
     list-style: none;
     display:flex;
     padding-top:10px;
-    padding-right:420px;
+    padding-right:25px;
     padding-bottom:123px;
     padding-left:20px;
 }
