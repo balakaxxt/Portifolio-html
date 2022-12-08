@@ -449,11 +449,10 @@ margin-bottom:700px;
 
 
 .content2{
-    white:10px;
-    height:600px;
-    margin-left:600px;
-    display:float;
-    font-family:Snell Roundhand, cursive;
+    white: 10px;
+    height: 698px;
+    margin-left: 507px;
+    font-family: Snell Roundhand, cursive;
 }
 
 
@@ -462,26 +461,21 @@ margin-bottom:700px;
 }
 
 
-.about .row .content2 .box2 h3{
-    
-    font-size:10rem;
-    color:gray-300;
-    line-height:2.8;
-  
-    padding-left:0px;
 
-}
 .about .row .content2 p{ 
     
-    font-size: 20px;
-color: white;
-line-height: 1;
-padding: 32px;
-  padding-top: 32px;
-  padding-right: 32px;
-  padding-bottom: 32px;
-  padding-left: 32px;
-padding-right: 37px;
+    font-size: 19px;
+    color: blue;
+    line-height: 1;
+    padding: 7px;
+      padding-top: 7px;
+      padding-right: 7px;
+      padding-bottom: 7px;
+    padding-top: 274px;
+    padding-right: 32px;
+    padding-bottom: 57px;
+    padding-left: -58px;
+    padding-right: 223px;
 }
 
 .about .row .content2 h3 span{
@@ -522,8 +516,13 @@ padding-right: 37px;
 }
 
 .divimgabout{
-    width:300px;
-    height:200px;
+    margin-top: -226px;
+    margin-left: 149px;
+    width: 341px;
+    heigth: 210px;
+    top: -17px;
+    float: left;
+    padding-top: 56px;
 }
 
 .aboutimg {
@@ -538,12 +537,7 @@ padding-right: 37px;
    
 }
 
-.box2 {
-    
-    
 
-    
-}
 
 
 
