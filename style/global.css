@@ -106,7 +106,9 @@ body.active{
 
     position: flex;
    
-    background:#322D2D;
+    background-image: url("../img/banner-top.png");
+    background-repeat: no-repeat, repeat;
+    background-size: 1200px;
 
     
   
@@ -131,7 +133,7 @@ body.active{
    
 }
 .Conteudotexto{ 
-    margin-left:88px;
+    margin-left:580px;
     width:400px;
     height:400px;
   
@@ -165,7 +167,6 @@ body.active{
 .home .content h3{
 padding-top:4px;
 font-size:2rem;
-color:#DCDCDC;
 line-height:1.1;
 text-transform:uppercase;
 line-items:left;
@@ -220,8 +221,9 @@ font-family: system-ui,-apple-system, Helvetica ,Arial, sans-serif;
 section{
 
     overflow:hidden;
-    width: 1024px;
+    width: 1000px;
     height:576px;
+    
     
 
 }
@@ -407,6 +409,28 @@ float:left;
 margin:20px;
 margin-bottom:700px;
 }
+#photomy {
+    margin-top: 2px;
+    margin-left: 109px;
+    display: table-cell;
+    padding-top: 0rem;
+    width: 184px;
+    heigth: 253px;
+    top: -357px;
+    float: left;
+}
+.conteudorimage{
+    margin-top: 122px;
+    margin-left: 109px;
+    display: table-cell;
+    background-color:red;
+    padding-top: 0rem;
+    width: 184px;
+    heigth: 253px;
+    top: -357px;
+    float: left;
+}
+
 .box-container1{
    
     width:150px;
@@ -530,17 +554,7 @@ margin-bottom:700px;
     padding-top: 56px;
 }
 
-.aboutimg {
-    margin-top:50px; 
-    margin-left:50px;
-    display:table-cell;
-    padding-top:0rem;
-    width:461px;
-    heigth:210px;
-    top:-357px;
-    float:left;
-   
-}
+
 
 
 
@@ -612,6 +626,7 @@ margin-bottom:700px;
     justify-content: center;
     text-align: center;
     padding-top:20rem;
+    
 }
 .home .content p{
     padding-top:1.2rem;

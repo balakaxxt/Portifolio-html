@@ -27,10 +27,11 @@
 
 .navbar{
    
-    width: 1024px;
+    width: 995px;
     height: 100px;
+    margin-left:3px;
     background:#473328;
-    border-radius: 34px;
+    border-radius: 18px;
 }
 
 .menu-web{
@@ -87,5 +88,14 @@
 
 }
 
+
+
+.my-image{
+
+background-color:red;
+width:100px;
+height:100px;
+
+}
 
 
