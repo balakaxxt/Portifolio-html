@@ -355,7 +355,7 @@ section{
 #section2{
 
     overflow: hidden;
-    background:white;
+    background:red;
     width: 1001px;
     height: 455px;
    
@@ -424,6 +424,7 @@ margin-bottom:700px;
     position: relative;
     width: 50%;
   }
+
   
   .image {
     display: block;
@@ -462,6 +463,43 @@ margin-bottom:700px;
     -ms-transform: translate(-50%, -50%);
   }
 
+  .row-left{
+    background-color: white;
+    margin-top: 56px;
+    margin-left: 361px;
+    width: 530px;
+    height: 380px;
+    }
+    .container-2 {    
+       
+        width: 524px;
+        height: 354px;
+    }
+    .container-2 h1{
+        font-size:25px;
+        margin-right:289px;
+    }
+    .container-2 h2{
+        font-size:20px;
+        padding:10px;
+        height:50px;
+           margin-right:289px;
+    }
+    .container-2 p{
+        
+    text-align:left;
+    margin-left:10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+
+color: #000000;
+
+    }
+
+    }
 .sombra{
 
     background:red;
