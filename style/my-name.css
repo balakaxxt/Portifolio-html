@@ -26,9 +26,11 @@
 }
 
 .navbar{
-    background:#195BBE;
+   
     width: 1024px;
     height: 100px;
+    background:#473328;
+    border-radius: 34px;
 }
 
 .menu-web{

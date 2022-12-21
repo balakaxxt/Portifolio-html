@@ -2,12 +2,17 @@
 
 
 .logo h1 {
-
-display:float;
+display:flex;
 color:white;
-font-size:23px;
-margin-bottom:110px;
+font-size:40px;
+margin-bottom:141px;
 padding-right:0px;
+color: white;
+}
+
+.logo span{
+    color: #13B7DA;
+
 }
 
 .icone1{
@@ -52,7 +57,7 @@ padding-right:0px;
 }
 .icone4{
     width:70px;
-    height:60px;
+    height:75px;
     padding-left:100px;
     padding-top:10px;
     padding-bottom:10px;
