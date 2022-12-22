@@ -136,13 +136,13 @@ body.active{
    
 }
 .Conteudotexto{ 
-    margin-left:90px;
-    width:400px;
-    height:400px;
-  
-    display:table-cell;
-    line-height:1.1;
-    float:left;
+    margin-left: 580px;
+    margin-top: 60px;
+    width: 400px;
+    height: 400px;
+    display: table-cell;
+    line-height: 1.1;
+    float: left;
 
 }
 
