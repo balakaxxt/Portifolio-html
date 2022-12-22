@@ -115,17 +115,20 @@ body.active{
 }
 
 .content{
-    width:900px;
-    height:500px;
+    width: 501px;
+    height: 259px;
     
 }
 
+
+}
 .Conteudo{
     display:table;
     width:1008px;
     height:500px;
    
 }
+
 .Conteudoimg{
     display:flex;
     padding-left:0px;
@@ -133,7 +136,7 @@ body.active{
    
 }
 .Conteudotexto{ 
-    margin-left:580px;
+    margin-left:90px;
     width:400px;
     height:400px;
   
@@ -144,6 +147,21 @@ body.active{
 }
 
 .Conteudotexto h1{
+    margin-top:100px;
+    color: #195bbe;
+}
+.Conteudotexto2{ 
+    margin-left:580px;
+    width:400px;
+    height:400px;
+  
+    display:table-cell;
+    line-height:1.1;
+    float:left;
+
+}
+
+.Conteudotexto2 h1{
     margin-top:100px;
     color: #195bbe;
 }
