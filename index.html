@@ -10,8 +10,11 @@
     <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="./style/services.css">
     <link rel="stylesheet" href="./style/logo.css">
+    <link rel="stylesheet" href="./style/card.css">
+    <link rel="stylesheet" href="./style/email.css">
     <link rel="stylesheet" href="./style/skill.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
     <title>Portifolio</title>
     
 </head>
@@ -29,13 +32,13 @@
         <div class="logo">
             <div>
               <h1>
-              My  <Span>D</Span>  Oliveira <span> />  </span>
+              <Span>D/</Span>  Oliveira 
              </h1>
             </div>
          </div>
         <ul class="nav-list">
             <li>
-                <a href="#Home">Inicio</a>
+                <a href="#Home" class="botao01" >Inicio</a>
             </li> 
             
             <li>
@@ -105,7 +108,7 @@
         </h3>
     
         <p>Front-end Developer - regional - Pernambuco</p>
-        <a href="#" class="batao">Portifolio</a>
+      
 
         <div class="share">
           
@@ -114,7 +117,7 @@
             <a href="#" class="fab fa-github"></a>
         
         </div>
-
+        <a href="#" class="batao">Portifolio</a>
         </div>
         
 
@@ -149,19 +152,7 @@
         <div class="sombra"></div>
       
         <div class="container">
-            <img id="photomy" src="./img/myeu.png" alt="eu">
-            <div class="overlay">
-              <div class="text">Olá ,Amigo</div>
-            </div>
-          </div>
-        
-        </div>
-
-       
-        <div class="row-left">
-            <div class="container-2"> 
-            
-                <h1>
+          <h1 class="text-bold">
                 Olá tudo otimo?
              </h1>
     
@@ -184,7 +175,37 @@
                 _______________________________________________
 
             </div>
-         </div>
+            <div>
+                <h2>
+                    nome <span> aluno </span>
+                </h2>
+                <h2>
+                    nome <span> aluno </span>
+                </h2>
+                <h2>
+                    nome <span> aluno </span>
+                </h2>
+                <h2>
+                    nome <span> aluno </span>
+                </h2>
+
+            </div>
+
+
+        
+        </div>
+
+       
+        <div class="row-left">
+            <div class="container-2"> 
+                <div class="container">
+                    <img id="photomy" src="./img/myeu.png" alt="eu">
+                    <div class="overlay">
+                      <div class="text">Olá ,Amigo</div>
+                    </div>
+                  </div>
+            
+             </div>
             
      </div>
 
@@ -255,98 +276,138 @@
 
 
 <section class="Services" 
-    <h1 class="heading">  
-    
-    <span> My</span> Skills
-
+<div id="titulotopo">
+    <h1 class="font-mono">
+         Serviços
     </h1>
-    <div class="row"> 
-
-        <div class="box-container">
-
+    <h2 class="" id="subititulo"> 
+    --  What Can I Do ---
+    </h2>
+  </div>
+  
+  <!– inicio das box cards –>
+  
+  
+  
+  <div class="flex flex-nowrap space-x-20 mb-10" id="containercard" >
+    
+    <div class="rounded-md " id="card1">
+  
+      <div class="max-w-sm rounded">
+  
+        <img id="iconecard" class="max-w-xl mx-20	max-width: 36rem;" src="/img/icons8-web-design-64 1.png" alt="Sunset in the mountains">
+  
+        <div class="px-3 py-1">
+          <div  id="titlecard1" class="text-base text-xl mb-1">Web design,UI/UX</div>
+          <p id="para1" class=" text-base">
+            Criaçao de loggin page,Web site.
+            design do site feito no figma.
+          </p>
+        </div>
+  
         
-        <div class="box-container1">
-            
-            <div class="icone1">
-                <img class="iconimg1" src="./icones/html-5.png" alt="">
-            </div>
-
-            <div class="box">
-                 <h3>90%</h3>
-                    <p>HTML</p>      
-                   </div>
-                
-            <div class="icone2">
-                <img class="iconimg2" src="./icones/css.png" alt="">
-                </div>
-        
-             <div class="box">
-                  <h3>90%</h3>
-                    <p>CSS</p>     
-            </div>
-        </div>    
+        <div class="px-10.5 pt-2 pb-2">
+  
+          <div id="botaovisita1">
+            <button class="bg-black hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-5 py-1 text-sm font-base text-white mr-3 mb-4">
+              Visita
+            </button>
+          </div>
+  
+      
         </div>
-
-
-
-
-
-
-
-
-        <div class="box-container3">
-
-        <div class="box2">
-            <div class="icone3">
-            <img class="iconimg3" src="./icones/css.png" alt="">
-            </div>
-
-            <div class="box3">
-            <h3>90%</h3>
-            <p>JAVASCRIPT</p>
-            </div>
-
-         
-
-            <div class="box2">  
-             <div class="icone4">
-                <img class="iconimg4" src="./icones/css.png" alt="">
-            </div>
-                <h3>90%</h3>
-                <p>REACT TSX</p>
-            </div>
-     </div>
-
-
- 
-
         </div>
-
-        <div class="divimgabout">
-        <img class="" src="./img/banner-novo1.png" alt="">
-        </div>
-        <div class="conteudoabout">
-       
-          
-
-        <div class="content2">
-            <h3>Meu nome is <span>Demison Oliveira </span>
-            </h3>
-            <p class="cp">Tudo otimo?
-                Sou estudante de desenvolvedor web júnior,
-                home office,
-                Estudante.Aberto para Contrato ou free lancer.
-
-                
-
-            </p>
-            <a href="#" class="btn">Contact me</a>
-        </div>
-
-         </div>
-
+      
     </div>
-
+    
+    
+  
+  
+    <div class="rounded-md" id="card2">
+   
+  
+      
+      <div class="max-w-sm rounded ">
+        <img id="iconecard" class="max-w-xl mx-20	max-width: 36rem;" src="/img/icons8-ui-64 1.png" alt="Sunset in the mountains">
+        <div class="px-4 py-2">
+          <div id="titlecard2" class="font-bold text-xl mb-1">Canva</div>
+          <p id="para2" class="text-base">
+            Artes Social Banner,
+            Ediçao de video,
+            criaçao de video 
+            para homenagear.
+          </p>
+        </div>
+        
+        <div class="px-10.5 pt-2 pb-2">
+  
+          <div id="botaovisita2">
+            <button class="bg-black hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-5 py-1 text-sm font-base text-white mr-3 mb-4">
+              Visita
+            </button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+   
+    
+    <div class="rounded-md" id="card3">
+   
+  
+      
+      <div class="max-w-sm rounded ">
+        <img id="iconecard" class="max-w-xl mx-20	max-width: 36rem;" src="/img/icons8-source-code-50 1.png" alt="Sunset in the mountains">
+        <div class="px-4 py-2">
+          <div id="titlecard3" class="text-base font-bold">HTML,CSS,TAILWIND</div>
+          <p id="para3"  class="text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,.
+          </p>
+        </div>
+  
+  
+        <div id="botaovisita3" class="px-6 pt-4 pb-2">
+          <div>
+            <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-5 py-1 text-sm font-base text-white mr-3 mb-4">
+              Visita
+            </button>
+          </div>
+  
+  
+  
+        </div>
+  
+  
+      </div>
+    
+    </div>
+  
+  </div>
+  
+  <!– inicio das box botaoes –>
+  
+  <div class="flex flex-nowrap space-x-30 mb-0" id="Containebotao">
+    <div id="botao2">
+      <button class="bg-black hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-20 py-6 text-sm font-semibold text-gray-700 mr-2 mb-2">
+        Contratar
+      </button>
+    </div>
+    
+    <div id="botao3">
+  
+      <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-20 py-6 text-sm font-semibold text-gray-700 mr-2 mb-2">
+        Contratar
+      </button>
+  
+    </div>
+  
+    <div id="botao4">
+      <button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-full px-20 py-6 text-sm font-semibold text-gray-700 mr-2 mb-2">
+        Contratar
+      </button>
+    </div>
+  </div>
   
 
 
@@ -358,41 +419,37 @@
 
 <section class="Email" >
 
-    <div class="content">
-
-    <div class="Conteudo">
-            
-        <div class="Conteudotexto">
-
-        <h1 class="seja">Seja bem vindo</h1>
-        <h3 class="meu-nome">
-           <span>  Olá,
-            Eu sou Demison Oliveira , Desenvolvedor Front end, Estudante de linguagens web</span>
-        </h3>
-    
-        <p>Front-end Developer - regional - Pernambuco</p>
-        <a href="#" class="batao">SERVIÇOS</a>
-
-        <div class="share">
-          
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-            <a href="#" class="fab fa-github"></a>
+    <div class="formularioContato">
         
-        </div>
-
-        </div>
-
-        </div>
-
-
-         
-   
-  
-
-
-
-    </div>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label>
+                <span><i class="icon icon-user-1"></i> Nome</span>
+                <input type="text" name="nome" required="">
+            </label>
+            
+            <label>
+                <span><i class="icon icon-email"></i> E-mail</span>
+                <input type="text" name="email" class="fade_8S">
+            </label>
+            <label>
+                <span><i class="icon icon-flag"></i>numero whatsapp</span>
+                <input type="text" name="assunto" required="">
+            </label>
+            <label>
+                <span><i class="icon icon-flag"></i> Assunto</span>
+                <input type="text" name="assunto" required="">
+            </label>
+            
+            <label>
+                <span><i class="icon icon-comment"></i> Mensagem</span>
+                 <textarea name="mensagem" rows="3" required=""></textarea> 
+            </label>
+           
+            <input type="hidden" name="acao" value="enviar" />
+            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+        
+        </form>
+    </div><!--Formulario Contato-->
 
 </section>
 
@@ -413,6 +470,7 @@
 
 
 <!-- script-javascript-icons --> 
+<script src="https://cdn.tailwindcss.com"></script>
 
 <script src="./javascript/javascript.js"></script>
 

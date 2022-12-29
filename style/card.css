@@ -1,0 +1,138 @@
+#otodo{
+
+}
+
+
+
+#containercard{
+  
+  
+}
+
+#iconecard{
+    width:40px;
+    margin-left:89px;
+    padding-top:20px;
+    padding-bottom:9px;
+}
+
+#card1{
+    background-color:#C4C4C4;
+    width: 213px;
+    height: 260px;
+
+}
+
+#para1{
+    padding:10px;
+    font-size: 15px;
+
+}
+#titlecard1{
+    font-size:18px;
+    margin-left:10px;
+    padding-top:5px;
+    padding-bottom:4px;
+}
+#titlecard2{
+font-size:18px;
+margin-left:70px;
+padding-top:5px;
+padding-bottom:10px;}
+
+
+#card2{
+    background-color:#C4C4C4;
+    width: 213px;
+    height: 260px;
+}
+#titlecard3{
+    font-size:100px;
+    margin-left:70px;
+    margin-bottom:20px;
+    padding-top:5px;
+   
+
+}
+#para3{
+    padding:5px;
+    font-size: 15px;
+    margin-left:10px;
+    margin-top:-9px;
+
+}
+#para2{
+    padding:5px;
+    font-size: 15px;
+    margin-left:10px;
+    margin-top:-9px;
+
+}
+#card3{
+    background-color:#C4C4C4;
+    width: 213px;
+    height: 260px;
+
+   
+}
+#titlecard3{
+    font-size:16px;
+    margin-left:-2px;
+    padding-bottom:0px;
+
+}
+#botao2{
+    padding-top:10px;
+    margin-left:110px;
+    margin-bottom:70px;
+
+}
+#botao3{
+    padding-top:10px;
+    margin-left:60px;
+    
+}
+#botao4{
+padding-top:9px;
+margin-left:77px;
+    
+}
+
+#titule{
+
+    margin-right:2px;
+}
+
+#titulotopo{
+
+margin-left:150px;
+font-size:30px;
+padding-top:50px;
+padding-bottom:50px;
+}
+
+#subititulo{
+
+margin-left:0px;
+font-size:20px;
+padding-top:50px;
+padding-bottom:3px;
+
+}
+
+#botaovisita1{
+    
+    padding-top:10px;
+    margin-left:100px;
+
+}
+#botaovisita2{
+    margin-top:-18px;
+    margin-left:120px;
+    padding-top:5px;
+   
+}
+#botaovisita3{
+    margin-left:100px;
+    margin-top:-18px;
+}

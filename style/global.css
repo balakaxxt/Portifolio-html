@@ -70,7 +70,7 @@ body.dark p{
 }
 
 body.dark span{
-    color:white;
+    color:black;
 }
 
 body.dark h3{
@@ -78,7 +78,7 @@ body.dark h3{
 }
 
 body.dark h1{
-    color:var(--green);
+    color:#13B7DA;
 }
 
 body.dark .user h3 {
@@ -136,7 +136,7 @@ body.active{
    
 }
 .Conteudotexto{ 
-    margin-left: 580px;
+    margin-left: 79px;
     margin-top: 60px;
     width: 400px;
     height: 400px;
@@ -203,10 +203,10 @@ font-family: system-ui,-apple-system, Helvetica ,Arial, sans-serif;
 .home .content a {
         max-width:350px;
         color:white;
-        margin-left:13rem;
+        margin-left:23rem;
         padding-left:0rem;
         font-size: 2.1rem;
-        margin-top:3rem;
+        margin-top:-7rem;
 
     
     }
@@ -222,8 +222,8 @@ font-family: system-ui,-apple-system, Helvetica ,Arial, sans-serif;
 
 .home .share{
     position: relative;
-    top:20rem;
-    height:30rem;
+    top:1000px;
+    height:10rem;
     border-radius:.5rem;
 }
 
@@ -373,7 +373,6 @@ section{
 #section2{
 
     overflow: hidden;
-    background:red;
     width: 1001px;
     height: 455px;
    
@@ -420,11 +419,11 @@ section{
 
 .box-container{
    
-width:150px;
-height:150px;
+width:200px;
+height:100px;
 borde:var (--box-shadow);
 float:left;
-margin:20px;
+margin-left:200px;
 margin-bottom:700px;
 }
 #photomy {
@@ -432,7 +431,7 @@ margin-bottom:700px;
     margin-left: 109px;
     display: table-cell;
     padding-top: 0rem;
-    width: 184px;
+    width: 100px;
     heigth: 253px;
     top: -357px;
     float: left;
@@ -482,9 +481,8 @@ margin-bottom:700px;
   }
 
   .row-left{
-    background-color: white;
     margin-top: 56px;
-    margin-left: 361px;
+    margin-left: 500px;
     width: 530px;
     height: 380px;
     }
