@@ -27,11 +27,10 @@
 
 .navbar{
    
-    width: 995px;
+    width: 1083px;
     height: 100px;
-    margin-left:3px;
-    background:white;
-    border-radius: 18px;
+    margin-left: -61px;
+    background: white;
 }
 
 .menu-web{
@@ -97,7 +96,7 @@
     color:black;
     text-decoration: none;
     transition: 0.3s;
-    font-size:15px;
+    font-size:12px;
 }
 
 .menu-web a:hover {

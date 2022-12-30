@@ -37,7 +37,7 @@ html{
 
 body{ 
     
-    
+    background:black;
     transition: background 0.2s linear;
     background-size: cover;
     width: 100vh;

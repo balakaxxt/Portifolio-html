@@ -1,6 +1,22 @@
 .footer{
-    height:130px;
-    width:1200px;
-    background:white;
+    height: 62px;
+    width: 1022px;
+    background: white;
 
+}
+
+
+.footer span{
+    padding:10px;
+    margin-left: 392px;
+}
+
+.titulo-footer{
+    font-size:20px;
+    margin-top:2000px;
+}
+
+.divfooter{
+    padding: 15px;
+    margin-top: 12px;
 }

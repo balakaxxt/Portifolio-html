@@ -5,7 +5,8 @@
 
 
 #containercard{
-  
+    margin-left: 136px;
+    margin-top: 56px;
   
 }
 
@@ -82,19 +83,16 @@ padding-bottom:10px;}
 
 }
 #botao2{
-    padding-top:10px;
-    margin-left:110px;
-    margin-bottom:70px;
+    margin-left: 168px;
+    margin-bottom: -59px;
 
 }
 #botao3{
-    padding-top:10px;
-    margin-left:60px;
+    margin-left: 116px;
     
 }
 #botao4{
-padding-top:9px;
-margin-left:77px;
+    margin-left: 114px;
     
 }
 
@@ -105,7 +103,7 @@ margin-left:77px;
 
 #titulotopo{
 
-margin-left:150px;
+margin-left:-5px;
 font-size:30px;
 padding-top:50px;
 padding-bottom:50px;
@@ -113,10 +111,10 @@ padding-bottom:50px;
 
 #subititulo{
 
-margin-left:0px;
-font-size:20px;
-padding-top:50px;
-padding-bottom:3px;
+    margin-left: 422px;
+    font-size: 17px;
+    padding-top: 40px;
+    padding-bottom: 35px;
 
 }
 
