@@ -1,7 +1,7 @@
 .footer{
     height: 62px;
     width: 1022px;
-    background: white;
+    background: #2c292f;
 
 }
 
@@ -9,6 +9,7 @@
 .footer span{
     padding:10px;
     margin-left: 392px;
+    color:white;
 }
 
 .titulo-footer{

@@ -37,7 +37,6 @@ html{
 
 body{ 
     
-    background:black;
     transition: background 0.2s linear;
     background-size: cover;
     width: 100vh;
@@ -104,11 +103,13 @@ body.active{
 
 .home{
 
-    position: flex;
-   
-    background-image: url("../img/banner-top.png");
+    width: 1023px;
+    margin-left:-2px;
+    background-image: url("../img/banner-2.png" );
     background-repeat: no-repeat, repeat;
-    background-size: 1200px;
+    background-size: 1031px;
+  }
+    
 
     
   

@@ -1,7 +1,10 @@
 
 
-.Email{
-    background:#473328;
+.email{
+    height:700px;
+    padding-bottom: 350px;
+
+   
 }
 .formularioContato { 
     max-width:600px; 
@@ -9,10 +12,10 @@
     float:none; 
     margin:auto; 
     padding:1em; 
-    margin-top:100px;
-    margin-bottom:0px; 
+    margin-top:140px;
+    margin-bottom:2000px; 
     border-radius:6px; 
-    background:black; 
+    background:#2c292f; 
     box-shadow: 1px 0px 1.2px 0px #ccc; 
     position:relative; 
 }
