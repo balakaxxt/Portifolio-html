@@ -376,21 +376,11 @@ section{
     overflow: hidden;
     width: 1001px;
     height: 455px;
+    background:blue;
    
 }
 
-#about{
-    background:blue;
-    height: 100vh;
-    width: 100vw;
-    margin:auto;
-    display: flex;
-    flex-flow: colum;
-    align-items:center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom:10rem;
-}
+
 
 .conteudoabout{
     margin-top:100px;
@@ -430,7 +420,6 @@ margin-bottom:700px;
 #photomy {
     margin-top: 71px;
     margin-left: 109px;
-    display: table-cell;
     padding-top: 0rem;
     width: 100px;
     heigth: 253px;
