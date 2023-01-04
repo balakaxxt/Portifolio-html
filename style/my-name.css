@@ -62,7 +62,7 @@
     background: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
     background: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
     border: 1px solid #CCCCCE;
-    border-radius: 3px;
+    border-radius: 200px;
     box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
                   0 2px 7px rgba(0, 0, 0, 0.2);
     color: #616165;
@@ -79,7 +79,13 @@
     position: relative;
     width: 98px;
 }
+.batao01 a:hover {
 
+    color: red;
+    
+  
+ }
+ 
 
 
 

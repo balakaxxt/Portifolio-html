@@ -37,10 +37,7 @@ html{
 
 body{ 
     
-    transition: background 0.2s linear;
-    background-size: cover;
     width: 100vh;
-    height: 100vh;
     margin-top:0px;
     margin-left:0px;
 }
@@ -103,8 +100,6 @@ body.active{
 
 .home{
 
-    width: 1023px;
-    margin-left:-2px;
     background-image: url("../img/banner-2.png" );
     background-repeat: no-repeat, repeat;
     background-size: 1000px;
@@ -248,15 +243,6 @@ section{
 }
 
 
-.batao{
-    color:white;
-}
-
-.batao:hover{
-    box-shadow: var(--box-shadow-inset);
-    color:var(--green);
-}
-
 
 
 .home .share{
@@ -376,8 +362,11 @@ section{
     overflow: hidden;
     width: 1001px;
     height: 455px;
-    background:blue;
    
+}
+
+.linha{
+    font-size: 13px;
 }
 
 
@@ -394,19 +383,37 @@ section{
     width:100%;
     height:100%;
     padding:0rem;
-    flex-flow: colum;
-    align-items:center;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    flex-decoration:co
-    display: flex;
-    gap:2rem;
+ 
 
 
 }
+.row h1{
+    color:black;
+    font-family: ui-sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width:200px;
+}
+
+.container h2{
+    width:200px;
+    color:black;
+    font-family: ui-sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
+.container p{
+    width: 316px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    
+
+}
 
 .box-container{
    
@@ -427,6 +434,11 @@ margin-bottom:700px;
     float: left;
     box-shadow: 10px 10px 5px lightblue inset;
 }
+
+
+
+
+
 .container {
     position: relative;
     width: 50%;
