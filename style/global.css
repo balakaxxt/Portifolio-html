@@ -49,16 +49,13 @@ body.dark {
 }
 
 body.dark .menu-web a{
-    
-        color:radial-gradient(circle at 50% 91.51%, #c9c2ff 0, #919cff 25%, #3c78f2 50%, #0059e3 75%, #0041d4 100%);
-        padding-left:0rem;
-        text-decoration: none;
-        transition: 0.3s;
-        font-size:17px;
+    background:white;
+        
 }
 
 body.dark a {
     background:none;
+    
 }
 
 body.dark p{
@@ -66,7 +63,7 @@ body.dark p{
 }
 
 body.dark span{
-    color:black;
+    color:white;
 }
 
 body.dark h3{

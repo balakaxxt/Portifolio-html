@@ -1,4 +1,4 @@
-.Skill {
+  .Skill {
     width: 1001px;
     height: 269px;
     overflow: hidden;
@@ -7,13 +7,13 @@
     
 
 }
-.skill .Content1 {
+  .skill .Content1 {
     width: 300px;
     height: 259px;
     background:red;
     
 }
-.skill .Conteudo1{
+  .skill .Conteudo1{
     display:table;
     width:1008px;
     height:500px;
@@ -21,9 +21,9 @@
    
 
 
-.Conteudotexto2{ 
+  .Conteudotexto2{ 
     margin-left: 68px;
-    margin-top: 1px;
+    margin-top: -30px;
     width: 400px;
     height: 400px;
     display: table-cell;
@@ -32,7 +32,7 @@
 }
 
 
-.Conteudotexto3{ 
+  .Conteudotexto3{ 
     margin-left: 100px;
     margin-top: 60px;
     width: 400px;
@@ -43,11 +43,11 @@
 
 }
 
-.skill .Conteudorpart2{
+  .skill .Conteudorpart2{
     background:red;
 }
 
-.progress {
+  .progress {
     margin:20px auto;
     padding:0;
     width:90%;
@@ -58,11 +58,13 @@
   }
   
   .bar {
-      position:relative;
+    
+    position:relative;
     float:left;
     min-width:1%;
     height:100%;
     background:#353434;
+
   }
   
   .percent {
@@ -71,9 +73,11 @@
   }
   
   .tiprogress{
-  font-family: 'Poppins';
-  font-style: normal;
-  font-size: 12px;
-  line-height: 10px;
-    margin-left:50px;
+    
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 10px;
+    margin-left:21px;
   }
